@@ -28,7 +28,7 @@
                                 <?php esc_html_e( 'Click To See The Event', 'mm' ); ?>
                             </a>
 
-                            <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=<?php echo get_the_title(); ?>&amp;dates=<?php echo $event_calendar_date; ?>&amp;location=<?php echo $location[ 'address' ]; ?>&amp;trp=false&amp;sprop=&amp;sprop=name:" target="_blank" rel="nofollow" class="btn btn-secondary">
+                            <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=<?php echo get_the_title(); ?>&amp;dates=<?php echo $event_calendar_date; ?>/<?php echo $event_calendar_date; ?>&amp;location=<?php echo $location[ 'address' ]; ?>&amp;trp=false&amp;sprop=&amp;sprop=name:" target="_blank" rel="nofollow" class="btn btn-secondary">
                                 <?php esc_html_e( 'Add To Your Google Calendar', 'mm' ); ?>
                             </a>
                         </div>
