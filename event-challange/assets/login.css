@@ -1,0 +1,49 @@
+/* ------------------------------------------------------------ *\
+    Body
+\* ------------------------------------------------------------ */
+
+body.login { background: 0 100% #111924 repeat; background-size: contain; text-shadow: 2px 4px 2px rgba(0,0,0,.35); font-family: VT323,monospace }
+
+/* ------------------------------------------------------------ *\
+    Form
+\* ------------------------------------------------------------ */
+
+
+.login .message,
+.login form { background-color: #ec5355; -webkit-box-shadow: none; box-shadow: none; }
+.login h1  { position: relative; z-index: 9999; background: url(../assets/images/logo.png) no-repeat center center; background-size: 350px 85px; }
+.login h1 a { background: none; padding: 0 127px;  }
+.login label { font-size: 14px; color: #fff; }
+.jetpack-sso-toggle.default,
+.jetpack-sso-toggle.wpcom { color: #fff !important; }
+.jetpack-sso-toggle.default:hover,
+.jetpack-sso-toggle.wpcom:hover { opacity: .7; }
+
+/* ------------------------------------------------------------ *\
+    Submit Button
+\* ------------------------------------------------------------ */
+
+.submit .button-primary { display: block; border: 0; font-size: 14px; font-weight: bold; color: #2b3b4d; background: #fff; cursor: pointer; border-radius: 4px; text-shadow: none; }
+.submit .button-primary:hover { color: #2b3b4d; background-color: #fff; border: 1px solid #6d1d46; border-color: #fff; box-shadow: none; opacity: .7; }
+.wp-core-ui .button-primary { box-shadow: none; }
+
+/* ------------------------------------------------------------ *\
+    Message above the form
+\* ------------------------------------------------------------ */
+
+.login #login_error,
+.login .message { border-left: 4px solid transparent; background-color : transparent; color: #fff; }
+
+/* ------------------------------------------------------------ *\
+ Links below the form
+\* ------------------------------------------------------------ */
+
+.login #backtoblog a, .login #nav a, .login h1 a { color: #fff; text-align: center; font-style: italic; font-size: 14px; }
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover { color: #fff; opacity: 0.9; }
+
+a { color: #fff; }
+a:hover { color: #002f65; }
+a:focus { color: #002f65; box-shadow: none; }
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {border-color: #333;
+    -webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+    box-shadow: 0 0 2px rgba(30,140,190,.8); }

@@ -1,0 +1,28 @@
+/*
+Theme name: Event Listing Theme
+Description: Custom Theme
+Author: Yuki Osmanow
+Version: 1.0
+*/
+
+/* ------------------------------------------------------------ *\
+    Container
+\* ------------------------------------------------------------ */
+
+.container .card { padding: 20px; margin: 20px 20px 20px 0; max-width: 31%; }
+.container .card .card-text { text-align: center; }
+.container .card .card-text a { margin: 10px auto; }
+.container .card .card-text .map-container > div { width: 100%; height: auto; min-height: 262px; background: #fafafa; margin-bottom: 10px; }
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { margin-top: 20px; }
+.footer .row { display: flex; }
+.footer .row .margin-left { margin-left: auto; }
+
+@media(max-width: 1024px){
+    .row { padding: 20px; }
+    .container .card { max-width: 100%; margin: 20px auto; }
+}

@@ -1,0 +1,509 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "20a24fbffbe0584291fee0c74d79b70c",
+    "packages": [
+        {
+            "name": "erusev/parsedown",
+            "version": "1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2018-03-08T01:11:30+00:00"
+        },
+        {
+            "name": "htmlburger/carbon-common",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/htmlburger/carbon-common.git",
+                "reference": "104091730bef3b97855d022adea96c7135648f4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/htmlburger/carbon-common/get/104091730bef3b97855d022adea96c7135648f4c.zip",
+                "reference": "104091730bef3b97855d022adea96c7135648f4c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "carbon-common.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "htmlBurger",
+                    "email": "info@htmlburger.com"
+                }
+            ],
+            "description": "A collection of common utility functions, useful for building WordPress themes and plugins.",
+            "homepage": "https://bitbucket.org/htmlburger/carbon-common",
+            "time": "2018-02-07T14:24:53+00:00"
+        },
+        {
+            "name": "htmlburger/carbon-fields",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/htmlburger/carbon-fields.git",
+                "reference": "f2e7e7b306f872b606b16909d2a2ee906381d5d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/f2e7e7b306f872b606b16909d2a2ee906381d5d1",
+                "reference": "f2e7e7b306f872b606b16909d2a2ee906381d5d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.7",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Carbon_Fields\\": "core/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "htmlBurger",
+                    "email": "wordpress@htmlburger.com",
+                    "homepage": "https://htmlburger.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Marin Atanasov",
+                    "email": "contact@marinatanasov.com",
+                    "homepage": "http://marinatanasov.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Siyan Panayotov",
+                    "homepage": "http://siyanpanayotov.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Georgi Stoyanov",
+                    "email": "stoyanov.gs@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Stanimir Panchev",
+                    "email": "Stan4omir@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Peter Petrov",
+                    "email": "peter.petrov89@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Plamen Kostadinov",
+                    "email": "pkostadinov.2create@gmail.com",
+                    "homepage": "http://plasmen.info/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Stanimir Stoyanov",
+                    "email": "stanimir.k.stoyanov@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Georgi Popov",
+                    "homepage": "http://magadanski.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "German Velchev",
+                    "email": "germozy@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Rashko Petrov",
+                    "email": "brutalenemy666@gmail.com",
+                    "homepage": "http://errorfactory.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Miroslav Mitev",
+                    "email": "mmitev.2create@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kaloyan Ivanov",
+                    "email": "kaloyanxivanov@gmail.com",
+                    "homepage": "http://vilepixels.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Atanas Angelov",
+                    "email": "atanas.angelov.dev@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander Panayotov",
+                    "email": "alexander.panayotov@gmail.com",
+                    "homepage": "http://alexanderpanayotov.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Viktor Vasilev",
+                    "email": "liberalcho@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress developer-friendly custom fields for post types, taxonomy terms, users, comments, widgets, options and more.",
+            "homepage": "http://carbonfields.net/",
+            "time": "2018-03-16T09:06:14+00:00"
+        },
+        {
+            "name": "htmlburger/carbon-fragment",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/htmlburger/carbon-fragment.git",
+                "reference": "28a3cea0c986cd424bd6b8d5b16f904f5bf74741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/htmlburger/carbon-fragment/get/28a3cea0c986cd424bd6b8d5b16f904f5bf74741.zip",
+                "reference": "28a3cea0c986cd424bd6b8d5b16f904f5bf74741",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "carbon-fragment.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "htmlBurger",
+                    "email": "info@htmlburger.com"
+                }
+            ],
+            "description": "A tiny tool that allows passing variables to theme fragment files.",
+            "homepage": "https://bitbucket.org/htmlburger/carbon-fragment",
+            "time": "2017-05-30T09:39:44+00:00"
+        },
+        {
+            "name": "htmlburger/carbon-pagination",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/htmlburger/carbon-pagination.git",
+                "reference": "1c81c804650bc1228711050dab3a1bc292dd4f41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/htmlburger/carbon-pagination/get/1c81c804650bc1228711050dab3a1bc292dd4f41.zip",
+                "reference": "1c81c804650bc1228711050dab3a1bc292dd4f41",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "carbon-pagination.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marin Atanasov",
+                    "email": "contact@marinatanasov.com"
+                },
+                {
+                    "name": "htmlBurger",
+                    "email": "info@htmlburger.com"
+                }
+            ],
+            "description": "A handy WordPress library for building all kinds of paginations.",
+            "keywords": [
+                "carbon",
+                "comments",
+                "first",
+                "last",
+                "loop",
+                "next",
+                "page",
+                "pages",
+                "pagination",
+                "paging",
+                "prev"
+            ],
+            "time": "2016-10-20T15:46:11+00:00"
+        },
+        {
+            "name": "htmlburger/theme-help",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/htmlburger/theme-help.git",
+                "reference": "88bee6233e441cb21ff21cf7f435d3a83e84bd16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/htmlburger/theme-help/get/88bee6233e441cb21ff21cf7f435d3a83e84bd16.zip",
+                "reference": "88bee6233e441cb21ff21cf7f435d3a83e84bd16",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "theme-help.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "htmlBurger",
+                    "email": "info@htmlburger.com"
+                }
+            ],
+            "description": "A tiny helper to render the theme readme.html in the WP Admin.",
+            "homepage": "https://bitbucket.org/htmlburger/theme-help",
+            "time": "2018-01-08T08:02:32+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "htmlburger/carbon-debug",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/htmlburger/carbon-debug.git",
+                "reference": "5f9f80817c96df8335c03875d74074862623fe5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/htmlburger/carbon-debug/get/5f9f80817c96df8335c03875d74074862623fe5a.zip",
+                "reference": "5f9f80817c96df8335c03875d74074862623fe5a",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/var-dumper": "~2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "carbon-debug.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "htmlBurger",
+                    "email": "info@htmlburger.com"
+                }
+            ],
+            "description": "Debugging functions, wrapping around Symfony's VarDumper.",
+            "homepage": "https://bitbucket.org/htmlburger/carbon-debug",
+            "time": "2018-01-08T08:30:17+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-08-06T14:22:27+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v2.8.44",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "4f935cf61c3733ca662628425eac69b38c2bbb4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4f935cf61c3733ca662628425eac69b38c2bbb4c",
+                "reference": "4f935cf61c3733ca662628425eac69b38c2bbb4c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "twig/twig": "~1.34|~2.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2018-07-26T11:13:39+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "htmlburger/carbon-fields": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
