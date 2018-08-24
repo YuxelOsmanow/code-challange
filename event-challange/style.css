@@ -18,8 +18,10 @@ Version: 1.0
     Footer
 \* ------------------------------------------------------------ */
 
-.footer { margin-top: 20px; }
-.footer .row { display: flex; }
+.footer { margin-top: 20px; background-color: #292b2c; padding: .5rem 1rem; }
+.footer .row { display: flex; color: #fff; }
+.footer .row p { margin-bottom: 0; }
+.footer .row p a { color: #fff; text-decoration: none; }
 .footer .row .margin-left { margin-left: auto; }
 
 @media(max-width: 1024px){
