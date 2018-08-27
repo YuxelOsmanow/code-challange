@@ -29,9 +29,11 @@ $events = new WP_Query( $events_args );
         <div class="container">
             <?php the_title( '<h1 class="jumbotron-heading">', '</h1>', true ); ?>
 
-            <p class="lead text-muted">
-                <?php the_content(); ?>
-            </p>
+            <?php if ( get_the_content() ): ?>
+                <div class="lead text-muted">
+                    <?php the_content(); ?>
+                </div>
+            <?php endif; ?>
         </div>
     </section>
 
